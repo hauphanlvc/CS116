@@ -1,0 +1,9 @@
+name: cs116
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - matplotlib
+prefix: /home/heroestonight/anaconda3/envs/cs116
