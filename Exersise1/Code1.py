@@ -1,12 +1,10 @@
-from matplotlib import colors
-from numpy.core.numeric import correlate
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
 
 data = pd.read_csv("excel_vnm.csv")
-print(data.describe())
-print(data.head())
+# print(data.describe())
+# print(data.head())
 # print(data["<Volume>"])
 # volume  = np.array(data["<Volume>"][::-1])
 volume  = np.array(data["<Volume>"])
